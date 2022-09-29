@@ -184,10 +184,10 @@ if uploaded_file1 is  None or uploaded_file2 is  None:
     col3,col4=st.columns(2)
     with col3:
         with st.expander("Gestion des affectations"):
-            st.image('https://raw.githubusercontent.com/Hichammlll/Streamlit-gpccarton/main/cap-2.PNG?token=GHSAT0AAAAAABYJREYTQQHKR4LHVJ6NRRSIYZVSJSQ')
+            st.image('https://raw.githubusercontent.com/gpccarton/data_visualize/main/cap-2.PNG')
     with col4:
         with st.expander("Gestion des absences"):
-            st.image('https://raw.githubusercontent.com/Hichammlll/Streamlit-gpccarton/main/cap-1.PNG?token=GHSAT0AAAAAABYJREYSNQHTMYRH37A4BVL6YZVSI5A')
+            st.image('https://raw.githubusercontent.com/gpccarton/data_visualize/main/cap-1.PNG')
 
 elif uploaded_file1 is not None and uploaded_file2 is not None:
     
